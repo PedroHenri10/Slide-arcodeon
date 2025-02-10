@@ -39,18 +39,7 @@ function hideCurrentImg(){
     }
 }
 
-function arrowOpacity(){
-    const notFirstImg = currentImg !==0 ;
-    if(notFirstImg){
-        backArrow.classList.remove("opacity");
-    }else{
-        backArrow.classList.add("opacity");
-    }
-
-    const lastImg = currentImg !== 0 && currentImg === img.length - 1;
-    if(lastImg){
-        forwardArrow.classList.add("opacity");
-    }else{
-        forwardArrow.classList.remove("opacity");
-    }
-}
+function arrowOpacity() {
+    backArrow.classList.toggle("opacity", currentImg === 0);
+    forwardArrow.classList.toggle("opacity", currentImg === img.length -1 );
+  }
