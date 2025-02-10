@@ -66,6 +66,58 @@
 
 h2{
     text-align: center;
-    color: #51F7 ;
+    color: #ffd7;
     font-size: 90px;
+}
+
+.slide-winter h2{
+    color: #0096ff;
+    opacity: 0.5;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffe0; 
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+}
+
+.accordion{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header{
+    width: 100%;
+    border: none;
+    background-color: trasparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.accordion-body{
+    color: #444;
+    font-size: 14px;
+    padding: 5px 0px;
+    opacity: 0;
+    height: 0;
+}
+
+.accordion-body.active{
+    height: 100%;
+    opacity: 1;
 }
