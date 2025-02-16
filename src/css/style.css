@@ -141,3 +141,42 @@ section{
     width: 32px;
     height: 32px;
 }
+
+@media (max-width: 768px) {
+    .imagens-slider {
+        min-height: 60vh;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    .back-arrow .arrow-img, .forward-arrow .arrow-img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagens-slider {
+        min-height: 50vh;
+    }
+
+    h2 {
+        font-size: 4.5vw;
+    }
+
+    .back-arrow .arrow-img, .forward-arrow .arrow-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .accordion-header {
+        font-size: 12px;
+    }
+
+    .icon-season {
+        width: 24px;
+        height: 24px;
+    }
+}
