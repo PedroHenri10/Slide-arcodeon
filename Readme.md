@@ -30,9 +30,15 @@ Um carrossel de imagens interativo com um acordeão dinâmico, desenvolvido em *
 
 🔹 Principais Arquivos
 index.html → Página principal contendo a estrutura do carrossel e do acordeão.
+
 reset.css → Normaliza os estilos para evitar inconsistências entre navegadores.
+
 style.css → Define o layout, cores, fontes e responsividade do projeto.
+
 app.js → Controla a navegação entre as imagens do carrossel.
+
 accordion.js → Gerencia a interação do acordeão, permitindo expandir e recolher as seções.
+
 imagens/ → Contém as imagens utilizadas no carrossel.
+
 icons/ → Armazena os ícones visuais do projeto.
