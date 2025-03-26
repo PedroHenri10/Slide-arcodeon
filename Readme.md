@@ -26,7 +26,7 @@ Um carrossel de imagens interativo com um acordeão dinâmico, desenvolvido em *
     Use as setas laterais para navegar entre as imagens das estações.
     Clique nos botões do acordeão para expandir e visualizar as descrições.
 
-Estrutura dos Arquivos
+## 📁 Estrutura dos Arquivos
 
 🔹 Principais Arquivos
 index.html → Página principal contendo a estrutura do carrossel e do acordeão.
