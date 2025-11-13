@@ -2,6 +2,12 @@
 
 Um carrossel de imagens interativo com um acordeão dinâmico, desenvolvido em **HTML, CSS e JavaScript puro**. O projeto permite navegar entre imagens das quatro estações do ano e acessar descrições detalhadas via acordeão.  
 
+## Desktop
+![imagem desktop](src/imagens/tmp_b6dc75f9-e84f-4e74-9344-0d4a1d09e496.png)
+
+## Mobile
+![imagem mobile](src/imagens/Screenshot_20251022-135939.png)
+
 ## 🚀 Tecnologias Utilizadas  
 - **HTML5** – Estrutura semântica do projeto  
 - **CSS3** – Estilização e responsividade  
